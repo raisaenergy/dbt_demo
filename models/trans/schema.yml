@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+    - name: trans__yearly_grades
+      description: "yearly_grades model"
+      tests:
+        - expect_continuous_time_series_simplified:
+            partition_by_columns: 
+                - student_name
+            date_column: date
+        
+      
+        
+
+    
+            
+            
+

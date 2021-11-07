@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+    - name: trans
+      description: "Trans is the database name and the schema name is dev_well_dist"
+      database: Trans
+      schema: dev_well_dist
+      tables:
+        - name: yearly_grades
+          description: "yearly_grades table"
+
