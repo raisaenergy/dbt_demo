@@ -1,15 +1,9 @@
-Welcome to your new dbt project!
+### Guide
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
+`dbt_demo/dbt_project.yml` has all the project configuration
+`dbt_demo/macros/` has all the created tests
+`dbt_demo/models/` has all the yaml files for the sources and models
+Any other files are created automatically when you initialize the project
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
